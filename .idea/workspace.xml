@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a9f0c2c-0da0-42ab-bc9d-a208f38d36a6" name="Default Changelist" comment="new">
+    <list default="true" id="7a9f0c2c-0da0-42ab-bc9d-a208f38d36a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Home/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="15419">
               <caret line="907" column="60" selection-start-line="907" selection-start-column="60" selection-end-line="907" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BikeLogic/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#310#334#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,13 +89,13 @@
         <option value="$PROJECT_DIR$/Userprofile/views.py" />
         <option value="$PROJECT_DIR$/BikeLogic/urls.py" />
         <option value="$PROJECT_DIR$/Delevery/models.py" />
-        <option value="$PROJECT_DIR$/BikeLogic/settings.py" />
         <option value="$PROJECT_DIR$/templates/Delivery/create.html" />
         <option value="$PROJECT_DIR$/templates/Delivery/success.html" />
         <option value="$PROJECT_DIR$/Delevery/urls.py" />
         <option value="$PROJECT_DIR$/Delevery/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/Home/homepage.html" />
+        <option value="$PROJECT_DIR$/BikeLogic/settings.py" />
       </list>
     </option>
   </component>
@@ -110,24 +122,7 @@
             <path>
               <item name="BikeLogic" type="b2602c69:ProjectViewProjectNode" />
               <item name="BikeLogic" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BikeLogic" type="b2602c69:ProjectViewProjectNode" />
               <item name="BikeLogic" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BikeLogic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BikeLogic" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BikeLogic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BikeLogic" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,7 +190,7 @@
       <updated>1633105964140</updated>
       <workItem from="1633105966963" duration="22117000" />
       <workItem from="1633166054906" duration="2060000" />
-      <workItem from="1633169412256" duration="1398000" />
+      <workItem from="1633169412256" duration="3584000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1633164154845</created>
@@ -204,11 +199,18 @@
       <option name="project" value="LOCAL" />
       <updated>1633164154846</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new">
+      <created>1633173080525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633173080526</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25575000" />
+    <option name="totallyTimeSpent" value="27761000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -404,16 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BikeLogic/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
-          <folding>
-            <element signature="e#310#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Delevery/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -477,8 +469,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Home/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="15419">
           <caret line="907" column="60" selection-start-line="907" selection-start-column="60" selection-end-line="907" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BikeLogic/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#310#334#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
