@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -140,3 +141,7 @@ DATE_INPUT_FORMATS = [
 ]
 DATE_FORMAT = "m/d/Y"
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFileStorage'
+
+# Heroku Settings
+django_heroku.settings(locals())
