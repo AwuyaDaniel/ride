@@ -121,7 +121,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFileStorage'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
@@ -141,7 +141,6 @@ DATE_INPUT_FORMATS = [
 ]
 DATE_FORMAT = "m/d/Y"
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFileStorage'
 
 # Heroku Settings
 django_heroku.settings(locals())
