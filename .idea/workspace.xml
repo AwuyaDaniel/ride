@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a9f0c2c-0da0-42ab-bc9d-a208f38d36a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/Delivery/Jobs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Delivery/search-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Delivery/single-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Delivery/update.html" afterDir="false" />
+    <list default="true" id="7a9f0c2c-0da0-42ab-bc9d-a208f38d36a6" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BikeLogic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BikeLogic/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delevery/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delevery/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delevery/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delevery/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delevery/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delevery/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delevery/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delevery/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Delivery/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Delivery/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Delivery/single-post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+            <state relative-caret-position="17">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#form#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#form#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -84,6 +72,18 @@
                 <element signature="n#style#0;n#button#0;n#form#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#form#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -158,8 +158,8 @@
       <find>hr</find>
       <find>leave a</find>
       <find>job</find>
-      <find>search</find>
       <find>i ag</find>
+      <find>search</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,6 +202,7 @@
         <option value="$PROJECT_DIR$/templates/Delivery/update.html" />
         <option value="$PROJECT_DIR$/Delevery/views.py" />
         <option value="$PROJECT_DIR$/templates/Delivery/single-post.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -323,7 +324,7 @@
       <workItem from="1633509650019" duration="998000" />
       <workItem from="1633511841732" duration="665000" />
       <workItem from="1635082108962" duration="3896000" />
-      <workItem from="1635096270450" duration="44638000" />
+      <workItem from="1635096270450" duration="44970000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1633164154845</created>
@@ -353,11 +354,18 @@
       <option name="project" value="LOCAL" />
       <updated>1633176418567</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1635245190808</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635245190809</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81097000" />
+    <option name="totallyTimeSpent" value="81429000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -372,7 +380,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14220877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14220877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -387,7 +395,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TG" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49924356" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49924356" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -401,16 +409,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/django/db/models/fields/related.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="793" column="8" selection-start-line="793" selection-start-column="8" selection-end-line="793" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Homepage/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -778,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Delivery/single-post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+        <state relative-caret-position="17">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#button#0;n#form#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#form#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -787,6 +789,16 @@
             <element signature="n#style#0;n#button#0;n#form#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#form#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
