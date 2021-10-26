@@ -12,7 +12,7 @@ from Delevery.models import BaseModel
 def home(request):
 
     user = request.user
-    jobs = BaseModel.objects.all()
+    jobs = BaseModel.objects.all().order_by('-date')[:5]
 
     context = {'user': user, 'jobs': jobs}
 
