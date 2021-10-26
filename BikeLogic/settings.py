@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'Homepage',
     'Userprofile',
     'Delevery',
+    'background_task'
 ]
 
 MIDDLEWARE = [

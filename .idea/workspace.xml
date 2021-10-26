@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f0c2c-0da0-42ab-bc9d-a208f38d36a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Delivery/Jobs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Delivery/search-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Delivery/single-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Delivery/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BikeLogic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BikeLogic/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BikeLogic/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BikeLogic/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delevery/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delevery/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delevery/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delevery/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delevery/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delevery/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delevery/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delevery/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homepage/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Delivery/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Delivery/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,60 +43,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/404.html">
+        <entry file="file://$PROJECT_DIR$/Delevery/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/500.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BikeLogic/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="369">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
               <folding>
-                <element signature="e#310#334#0" expanded="true" />
+                <element signature="e#0#64#0" expanded="true" />
+                <element signature="e#849#1331#0" />
+                <element signature="e#1651#1979#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Delivery/update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-107">
+              <caret line="227" column="125" selection-start-line="227" selection-start-column="125" selection-end-line="227" selection-end-column="125" />
+              <folding>
+                <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+                <element signature="n#form#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+                <element signature="n#form#2;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+                <element signature="n#div#0;n#form#2;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+                <element signature="n#form#3;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/templates/Delivery/single-post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="87" column="111" selection-start-line="87" selection-start-column="111" selection-end-line="87" selection-end-column="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BikeLogic/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
               <folding>
-                <element signature="e#633#665#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nova/UserProfile/urls.py">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
+            <state relative-caret-position="71">
+              <caret line="242" column="44" selection-start-line="242" selection-start-column="44" selection-end-line="242" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Delevery/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="136" column="70" selection-start-line="111" selection-start-column="20" selection-end-line="136" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#2055#2284#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Delivery/Jobs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Delevery/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -98,38 +132,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nova/nova/settings.py">
+        <entry file="file://$PROJECT_DIR$/templates/Delivery/search-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2113" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nova/nova/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="50" />
-              <folding>
-                <element signature="e#628#660#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Delivery/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Delivery/success.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="18" column="5" selection-end-line="47" />
+            <state relative-caret-position="68">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -148,6 +154,12 @@
     <findStrings>
       <find>expl</find>
       <find>login</find>
+      <find>view</find>
+      <find>hr</find>
+      <find>leave a</find>
+      <find>job</find>
+      <find>search</find>
+      <find>i ag</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,30 +178,36 @@
         <option value="$PROJECT_DIR$/static/assets/css/style.css" />
         <option value="$PROJECT_DIR$/Userprofile/urls.py" />
         <option value="$PROJECT_DIR$/Userprofile/models.py" />
-        <option value="$PROJECT_DIR$/Homepage/views.py" />
         <option value="$PROJECT_DIR$/Delevery/forms.py" />
-        <option value="$PROJECT_DIR$/Delevery/admin.py" />
         <option value="$PROJECT_DIR$/templates/User/signup.html" />
         <option value="$PROJECT_DIR$/templates/User/login.html" />
         <option value="$PROJECT_DIR$/Userprofile/views.py" />
-        <option value="$PROJECT_DIR$/Delevery/models.py" />
         <option value="$PROJECT_DIR$/templates/Delivery/create.html" />
-        <option value="$PROJECT_DIR$/templates/Delivery/success.html" />
-        <option value="$PROJECT_DIR$/Delevery/urls.py" />
-        <option value="$PROJECT_DIR$/Delevery/views.py" />
         <option value="$PROJECT_DIR$/templates/Home/homepage.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/templates/404.html" />
         <option value="$PROJECT_DIR$/templates/500.html" />
         <option value="$PROJECT_DIR$/BikeLogic/urls.py" />
+        <option value="$PROJECT_DIR$/templates/Delivery/success.html" />
         <option value="$PROJECT_DIR$/BikeLogic/settings.py" />
+        <option value="$PROJECT_DIR$/Delevery/admin.py" />
+        <option value="$PROJECT_DIR$/Homepage/views.py" />
+        <option value="$PROJECT_DIR$/Delevery/data_population.py" />
+        <option value="$PROJECT_DIR$/Delevery/models.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/Delivery/search-page.html" />
+        <option value="$PROJECT_DIR$/templates/Delivery/Jobs.html" />
+        <option value="$PROJECT_DIR$/Delevery/urls.py" />
+        <option value="$USER_HOME$/Downloads/Compressed/netstormhtml-10/main-template/netstorm-template-v1.0/blog-single.html" />
+        <option value="$PROJECT_DIR$/templates/Delivery/update.html" />
+        <option value="$PROJECT_DIR$/Delevery/views.py" />
+        <option value="$PROJECT_DIR$/templates/Delivery/single-post.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -199,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,20 +232,7 @@
             <path>
               <item name="BikeLogic" type="b2602c69:ProjectViewProjectNode" />
               <item name="BikeLogic" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BikeLogic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BikeLogic" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BikeLogic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BikeLogic" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="Delevery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BikeLogic" type="b2602c69:ProjectViewProjectNode" />
@@ -241,10 +245,17 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="Delivery" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BikeLogic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BikeLogic" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +318,12 @@
       <updated>1633105964140</updated>
       <workItem from="1633105966963" duration="22117000" />
       <workItem from="1633166054906" duration="2060000" />
-      <workItem from="1633169412256" duration="6445000" />
+      <workItem from="1633169412256" duration="6704000" />
+      <workItem from="1633340563702" duration="19000" />
+      <workItem from="1633509650019" duration="998000" />
+      <workItem from="1633511841732" duration="665000" />
+      <workItem from="1635082108962" duration="3896000" />
+      <workItem from="1635096270450" duration="44638000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1633164154845</created>
@@ -330,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1633174081259</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new">
+      <created>1633176418567</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633176418567</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30622000" />
+    <option name="totallyTimeSpent" value="81097000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -349,12 +372,12 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13313162" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14220877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.46215782" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,8 +386,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TG" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49924356" weight="0.32850242" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -397,9 +420,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Delevery/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -480,20 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/User/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="69" column="116" selection-start-line="69" selection-start-column="116" selection-end-line="69" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homepage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Delevery/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -521,46 +527,6 @@
     <entry file="file://$PROJECT_DIR$/Homepage/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Delevery/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Delevery/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Delevery/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Delevery/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Home/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15419">
@@ -571,13 +537,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../awuyadaniel/awuyadaniel/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -585,26 +544,6 @@
           <folding>
             <element signature="e#312#336#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Delivery/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Delivery/success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="18" column="5" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -617,14 +556,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/500.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
+        <state relative-caret-position="272">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../nova/UserProfile/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nova/nova/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../nova/nova/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="629">
           <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="50" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
@@ -634,7 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BikeLogic/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="335">
           <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
@@ -642,34 +593,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nova/UserProfile/urls.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/netstormhtml-10/main-template/netstorm-template-v1.0/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="386" selection-end-column="42" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nova/nova/settings.py">
+    <entry file="file://$USER_HOME$/Downloads/Compressed/netstormhtml-10/main-template/netstorm-template-v1.0/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2113" />
+        <state relative-caret-position="13">
+          <caret line="173" column="8" selection-start-line="173" selection-start-column="8" selection-end-line="379" selection-end-column="51" />
+          <folding>
+            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepage/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delevery/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepage/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BikeLogic/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding>
             <element signature="e#310#334#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Delevery/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delevery/data_population.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#226#523#0" />
+            <element signature="e#3497#3922#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homepage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Delivery/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Delivery/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="61" column="30" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Delivery/search-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delevery/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/netstormhtml-10/main-template/netstorm-template-v1.0/blog-single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4267">
+          <caret line="384" column="34" lean-forward="true" selection-start-line="384" selection-start-column="34" selection-end-line="384" selection-end-column="34" />
+          <folding>
+            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="87" column="111" selection-start-line="87" selection-start-column="111" selection-end-line="87" selection-end-column="111" />
+        <state relative-caret-position="71">
+          <caret line="242" column="44" selection-start-line="242" selection-start-column="44" selection-end-line="242" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delevery/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="136" column="70" selection-start-line="111" selection-start-column="20" selection-end-line="136" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#2055#2284#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Delivery/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="227" column="125" selection-start-line="227" selection-start-column="125" selection-end-line="227" selection-end-column="125" />
+          <folding>
+            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#form#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#form#2;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#0;n#form#2;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#form#3;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delevery/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#849#1331#0" />
+            <element signature="e#1651#1979#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Delivery/Jobs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Delivery/single-post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#form#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

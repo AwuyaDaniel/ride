@@ -70,6 +70,7 @@
                     <ul class="navbar-nav items mx-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="{% url 'Homepage:home' %}">Home</a>
+                            <a class="nav-link" href="{% url 'Delivery:jobs' %}">Jobs</a>
                         </li>
 
                         {% if user.is_authenticated %}
@@ -98,13 +99,13 @@
 {#                        </li>#}
                     </ul>
                     <!-- Navbar Icons -->
-{#                    <ul class="navbar-nav icons">#}
-{#                        <li class="nav-item">#}
-{#                            <a href="#" class="nav-link" data-toggle="modal" data-target="#search">#}
-{#                                <i class="fas fa-search"></i>#}
-{#                            </a>#}
-{#                        </li>#}
-{#                    </ul>#}
+                    <ul class="navbar-nav icons">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
 
                     <!-- Navbar Toggler -->
                     <ul class="navbar-nav toggle">
@@ -238,7 +239,8 @@
                         Search <i class="far fa-times-circle icon-close"></i>
                     </div>
                     <div class="modal-body">
-                        <form class="row">
+                        <form class="row" action="{% url 'Delivery:search' %}"  method="post">
+                            {% csrf_token %}
                             <div class="col-12 align-self-center">
                                 <div class="row">
                                     <div class="col-12 pb-3">
@@ -248,12 +250,12 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 input-group mt-4">
-                                        <input type="text" placeholder="Enter your keywords">
+                                        <input type="text" placeholder="Enter your keywords" name="key">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-12 input-group align-self-center">
-                                        <button class="btn btn-bordered-white mt-3">Search</button>
+                                        <button class="btn btn-bordered-white mt-3" type="submit">Search</button>
                                     </div>
                                 </div>
                             </div>
